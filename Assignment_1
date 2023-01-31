@@ -162,3 +162,68 @@ for i in numbers:
         print(i)
     elif i > 500:
         break
+
+Q26. What is a string? How can we declare string in Python?
+
+String is array of sequenced characters and is written inside single quotes, double quotes or triple quotes
+Strings in python are surrounded by either single quotation marks, or double quotation marks. 'hello' is the same as "hello".
+
+Q27. How can we access the string using its index?
+
+You can access the characters in a string by referring to its index number inside square brackets [] .
+
+Q28. Write a code to get the desired output of the following
+string = "Big Data iNeuron"
+desired_output = "iNeuron"
+
+string = "Big Data iNeuron"
+desired_output = string[9::]
+print("desired_output =",desired_output)
+
+Q29. Write a code to get the desired output of the following
+string = "Big Data iNeuron"
+desired_output = "norueNi"
+
+string = "Big Data iNeuron"
+desired_output = string[-1:-8:-1]
+print("desired_output =",desired_output)
+
+Q30. Resverse the string given in the above question.
+
+string = "Big Data iNeuron"
+print(string[::-1])
+
+Q31. How can you delete entire string at once?
+
+Python will not allow deleting a particular character in a string. Whereas you can remove the entire string variable using the del command.
+
+Q32. What is escape sequence?
+
+An escape sequence is a sequence of characters that, when used inside a character or string, 
+does not represent itself but is converted into another character or series of characters.
+
+Q33. How can you print the below string?
+'iNeuron's Big Data Course'
+
+print("'iNeuron's Big Data Course'")
+
+Q34. What is a list in Python?
+
+A Python list is an ordered and changeable collection of data objects. 
+Unlike an array, which can contain objects of a single type, a list can contain a mixture of objects.
+
+Q35. How can you create a list in Python?
+
+To create a list in Python, we use square brackets ( [] ). 
+Here's what a list looks like: ListName = [ListItem, ListItem1, ListItem2, ListItem3, ...]
+
+Q36. How can we access the elements in a list?
+
+To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index.
+
+
+Q37. Write a code to access the word "iNeuron" from the given list.
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+print(lst[4][2])
+
