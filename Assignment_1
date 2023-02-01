@@ -227,3 +227,26 @@ lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 
 print(lst[4][2])
 
+Q38. Take a list as an input from the user and find the length of the list.
+
+input_string = input("Enter a list element separated by space ")
+list  = input_string.split()
+print(len(list))
+
+Q39. Add the word "Big" in the 3rd index of the given list.
+lst = ["Welcome", "to", "Data", "course"]
+
+lst = ["Welcome", "to", "Data", "course"]
+lst[3] = "Big"
+print(lst)
+
+Q40. What is a tuple? How is it different from list?
+A tuple is an ordered sequence of elements of different data types, such as integer, float, string, list or even a tuple.
+Elements of a tuple are enclosed in parenthesis (round brackets) and are separated by commas
+List and Tuple in Python are the classes of Python Data Structures. The list is dynamic, whereas the tuple has static characteristics. 
+This means that lists can be modified whereas tuples cannot be modified, the tuple is faster than the list because of static in nature.
+
+Q41. How can you create a tuple in Python?
+A tuple is created by placing all the items (elements) inside parentheses () , separated by commas.
+my_tuple = (1, "Hello", 3.4)
+
